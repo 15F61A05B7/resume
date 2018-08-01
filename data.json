@@ -1,5 +1,51 @@
 {
   "create":{
     "info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
-  }
+  },
+  "education":[
+    {
+      "degree":"B-tech (CSE)",
+      "institute":"Siddartha College of Engineerng",
+      "data":["2015-19","70%"]
+    },
+    {
+      "degree":"intermediate (M.P.C)",
+      "institute":"Narayana Junior College",
+      "data":["2013-15","70%"]
+    },
+    {
+      "degree":"ssc",
+      "institute":"Vignana Jyothi Concept School",
+       "data":["2012-13","93%"]
+    }
+  ],
+  "skills":[
+    {
+     "title":"programing languages",
+     "set":["java","C","C++"]
+   },
+   {
+     "title":"Web Technologies",
+     "set":["JSON","JS","CSS"]
+   },
+   {
+     "title":"Data Bases",
+     "set":["SQL","MySql","Oracle"]
+   },
+   {
+     "title":"Opareting System",
+     "set":["Windows","Dos","Ios"]
+   }
+ ],
+ "achievements":[
+   {
+     "achievements":"Got first prize in ppt."
+   },
+   {
+     "achievements":"Got first prize in Technical quiz."
+   },
+   {
+     "achievements":"Got first priz in Running race."
+   }
+ ]
 }
