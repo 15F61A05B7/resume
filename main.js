@@ -103,12 +103,14 @@ heading.appendChild(hline);
 var list=document.createElement("ul");
 child2.appendChild(list);
 var i=0;
+var listItem="";
 while(i<achievements.length){
-  listItem=document.createElement("li");
-  listItem.textContent=achievements[i].achievedData;
-  list.appendChild(listItem);
+  listItem+="<li>"+achievements[i].achievements+"</li>";
+  // listItem.textContent=achievements[i].achievedData;
+  // list.appendChild(listItem);
   //console.log(listItem);
 
   i++;
 }
+list.innerHTML=listItem;
 }
